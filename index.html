@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Space - Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="website icon" href="imgs/iconSite.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div id="Home" class="w-full h-[100vh] flex col justify-center items-center bg-stone-950">
+            <h1 class="absolute bottom-[675px] right-[1375px] text-2xl text-yellow-500"><b>Farm Space</b></h1>
+            <div>
+                <nav>
+                    <ul class="text-yellow-500 transition duration-700 ease-in-out flex relative bottom-80 left-[1310px]"> <!-- Search Div's -->
+                        <li><a class="m-[10px] hover:underline hover:decoration-yellow-500" href="#Home"><b>Home</b></a></li>
+                        <li><a class="m-[10px] hover:underline hover:decoration-yellow-500" href="#About"><b>About</b></a></li>
+                        <li><a class="m-[10px] hover:underline hover:decoration-yellow-500" href="#Buy"><b>Buy</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h1 class="text-yellow-500 text-[50px] relative bottom-44 left-[280px] font-serif">VEGETABLES POPULARS</h1>
+            <div class="bg-stone-900 w-56 h-72 rounded m-[10px] relative right-96 border-2 border-yellow-500"> <!-- 1º Vegetable popular -->
+                <p class="text-yellow-500 relative top-44 left-[70px] text-2xl"><b>Potato</b></p>
+                <img src="imgs/plantyellow.png" class="relative bottom-[20px] left-[10px] w-[20px]">
+                <img class="absolute bottom-[85px] left-[18px] w-48" src="imgs/potatoImg.png" alt="potatoImg">
+                <button
+                id="btnbuy"
+                class="bg-yellow-500 border-2 border-stone-900 text-white hover:bg-stone-900 hover:text-yellow-500 hover:border-yellow-500 shadow-lg hover:shadow-yellow-500/50 rounded p-2 w-32 relative left-12 top-40 transition duration-700 ease-in-out">
+                Buy</button>
+            </div>
+
+            <div class="bg-yellow-500 w-56 h-72 rounded m-[10px] relative right-96"> <!-- 2º Vegetable popular -->
+                <p class="text-stone-900 relative top-44 left-[70px] text-2xl"><b>Lettuce</b></p>
+                <img src="imgs/plantblack.png" class="relative bottom-[20px] left-[10px] w-[20px]">
+                <img class="absolute bottom-[90px] left-2 w-48" src="imgs/lettuceImg.png" alt="lettuceImg">
+                <button 
+                id="btnbuy"
+                class="bg-stone-900 border-2 border-stone-900 text-white hover:bg-yellow-500 hover:text-stone-900 hover:border-stone-900 shadow-lg hover:shadow-stone-950/50 rounded p-2 w-32 relative left-12 top-40 transition duration-700 ease-in-out">
+                Buy</button>
+            </div>
+
+            <div class="bg-stone-900 w-56 h-72 rounded m-[10px] relative right-96 border-2 border-yellow-500"> <!-- 3º Vegetable popular -->
+                <p class="text-yellow-500 relative top-44 left-[75px] text-2xl"><b>Carrot</b></p>
+                <img src="imgs/plantyellow.png" class="relative bottom-[20px] left-[10px] w-[20px]">
+                <img class="absolute bottom-[90px] w-48 left-4" src="imgs/carrotImg.png" alt="carrotImg">
+                <button 
+                id="btnbuy"
+                class="bg-yellow-500 border-2 border-stone-900 text-white hover:bg-stone-900 hover:text-yellow-500 hover:border-yellow-500 shadow-lg hover:shadow-yellow-500/50 rounded p-2 w-32 relative left-12 top-40 transition duration-700 ease-in-out">
+                Buy</button>
+            </div>
+            <img src="imgs/farmerImg.png" class="absolute left-[1100px] top-[329px] w-[400px]">
+            <a href="#Buy"><button class="border-2 border-stone-950 rounded bg-yellow-500 text-stone-900 absolute top-[525px] left-[466px] w-[600px] h-8 hover:bg-stone-900 hover:text-yellow-500 hover:border-yellow-500 shadow-lg hover:shadow-yellow-500/50 transition duration-700 ease-in-out">
+                See more</button></a>
+        </div>
+    </section>
+    <section>
+        <div id="About" class="w-full h-[100vh] flex col justify-center items-center bg-yellow-500">
+            <h1 class="absolute top-[750px] right-[1375px] text-2xl text-stone-950"><b>Farm Space</b></h1>
+            <div>
+                <nav>
+                    <ul class="text-stone-950 transition duration-700 ease-in-out flex relative bottom-80 left-[1313px]"> <!-- Search Div's -->
+                        <li><a class="m-[10px] hover:underline hover:decoration-stone-950" href="#Home"><b>Home</b></a></li>
+                        <li><a class="m-[10px] hover:underline hover:decoration-stone-950" href="#About"><b>About</b></a></li>
+                        <li><a class="m-[10px] hover:underline hover:decoration-stone-950" href="#Buy"><b>Buy</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="text-stone-950 text-[50px] absolute top-[925px] left-[1125px] font-serif">About We</h1>
+            <p class="text-stone-950 relative  bottom-[40px] left-[530px]"><b>At Farm Space, we take pride in delivering products of the highest quality. 
+                Our fertile fields and dedicated care allow us to produce abundantly, meeting the demands of our customers without compromising excellence. From fresh crops to handcrafted goods, everything we offer reflects our commitment to sustainability, hard work, and trust. 
+                Here, quality isn’t just a promise—it’s a tradition.</b></p>
+            <div class="flex">
+                <img src="imgs/ytImg.png" class="bg-gradient-to-r from-red-500 via-red-700 to-red-600 shadow-lg hover:shadow-red-500/100 rounded-full cursor-pointer  relative top-[30px] left-[250px] w-[190px] h-[50px] transition duration-700 ease-in-out">
+                <img src="imgs/insImg.png" class="bg-gradient-to-r from-pink-500 via-red-400 to-pink-400 shadow-lg hover:shadow-pink-500/100 rounded-full cursor-pointer  relative top-[30px] left-[270px] w-[190px] h-[50px] transition duration-700 ease-in-out">
+                <img src="imgs/wtsappImg.png" class="bg-gradient-to-r from-green-600 via-green-400 to-green-500 shadow-lg hover:shadow-green-500/100 rounded-full cursor-pointer  relative top-[30px] left-[290px] w-[190px] h-[50px] transition duration-700 ease-in-out">
+                <img src="imgs/fcImg.png" class="bg-gradient-to-r from-cyan-600 via-blue-400 to-blue-500 shadow-lg hover:shadow-blue-500/100 rounded-full cursor-pointer  relative top-[30px] left-[310px] w-[190px] h-[50px] transition duration-700 ease-in-out">
+            </div>
+            <img src="imgs/chickenImg.png" class="relative right-[1050px] top-[109px]">
+        </div>
+    </section>
+    <section> 
+        <div id="Buy" class="w-full h-[100vh] flex col justify-center items-center bg-stone-950">
+            <h1 class="absolute top-[1485px] right-[1375px] text-2xl text-yellow-500"><b>Farm Space</b></h1>
+            <div>
+                <nav>
+                    <ul class="text-yellow-500 transition duration-700 ease-in-out flex relative bottom-[315px] left-[1250px]"> <!-- Search Div's -->
+                        <li><a class="m-[10px] hover:underline hover:decoration-yellow-500" href="#Home"><b>Home</b></a></li>
+                        <li><a class="m-[10px] hover:underline hover:decoration-yellow-500" href="#About"><b>About</b></a></li>
+                        <li><a class="m-[10px] hover:underline hover:decoration-yellow-500" href="#Buy"><b>Buy</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex">
+            <h1 class="text-yellow-500 text-[50px] absolute top-[1615px] left-[608px] font-serif">VEGETABLES</h1>
+                <div class="bg-stone-900 w-56 h-72 rounded m-[10px] relative right-[80px] top-[4px] border-2 border-yellow-500">
+                <img src="imgs/plantyellow.png" class="absolute bottom-[250px] left-[10px] w-[20px]">
+                <img class="absolute bottom-[85px] left-[18px] w-48" src="imgs/potatoImg.png" alt="potatoImg">
+                    <p class="text-yellow-500 absolute top-44 left-[70px] text-2xl"><b>Potato</b></p>
+                    <button
+                    id="btnbuy"
+                    class="bg-yellow-500 border-2 border-stone-900 text-white hover:bg-stone-900 hover:text-yellow-500 hover:border-yellow-500 shadow-lg hover:shadow-yellow-500/50 rounded p-2 w-32 relative left-12 top-[210px] transition duration-700 ease-in-out">
+                    Buy</button>
+                </div>
+
+                <div class="bg-yellow-500 w-56 h-72 rounded m-[10px] relative right-[80px] top-[4px] border-2 border-yellow-500">
+                    <img src="imgs/plantblack.png" class="absolute bottom-[250px] left-[10px] w-[20px]">
+                    <img class="absolute bottom-[90px] left-2 w-48" src="imgs/lettuceImg.png" alt="lettuceImg">
+                        <p id="textnamevgt" class="text-stone-950 absolute top-44 left-[70px] text-2xl"><b>Lettuce</b></p>
+                        <button
+                        id="btnbuy"
+                        class="bg-stone-950 border-2 border-stone-900 text-yellow-500 hover:bg-yellow-500 hover:text-stone-950 hover:border-stone-950 shadow-lg hover:shadow-stone-950/50 rounded p-2 w-32 relative left-12 top-[210px] transition duration-700 ease-in-out">
+                        Buy</button>
+                    </div>
+                    <div class="bg-stone-900 w-56 h-72 rounded m-[10px] relative right-[80px] top-[4px] border-2 border-yellow-500">
+                        <img id="imgplant" src="imgs/plantyellow.png" class="absolute bottom-[250px] left-[10px] w-[20px]">
+                        <img class="absolute bottom-[90px] w-48 left-4" src="imgs/carrotImg.png" alt="carrotImg">
+                            <p class="text-yellow-500 absolute top-44 left-[70px] text-2xl"><b>Carrot</b></p>
+                            <button
+                            id="btnbuy"
+                            class="bg-yellow-500 border-2 border-stone-900 text-white hover:bg-stone-900 hover:text-yellow-500 hover:border-yellow-500 shadow-lg hover:shadow-yellow-500/50 rounded p-2 w-32 relative left-12 top-[210px] transition duration-700 ease-in-out">
+                            Buy</button>
+                    </div>
+
+                    <div class="bg-yellow-500 w-56 h-72 rounded m-[10px] relative right-[80px] top-[4px] border-2 border-yellow-500">
+                        <img src="imgs/plantblack.png" class="absolute bottom-[250px] left-[10px] w-[20px]">
+                        <img class="absolute bottom-[90px] left-2 w-48" src="imgs/cabbageImg.png" alt="cabbageImg">
+                            <p id="textnamevgt" class="text-stone-950 absolute top-44 left-[70px] text-2xl"><b>Cabbage</b></p>
+                            <button
+                            id="btnbuy"
+                            class="bg-stone-950 border-2 border-stone-900 text-yellow-500 hover:bg-yellow-500 hover:text-stone-950 hover:border-stone-950 shadow-lg hover:shadow-stone-950/50 rounded p-2 w-32 relative left-12 top-[210px] transition duration-700 ease-in-out">
+                            Buy</button>
+                    </div>
+
+                    <div class="bg-stone-900 w-56 h-72 rounded m-[10px] relative right-[80px] top-[4px] border-2 border-yellow-500">
+                        <img id="imgplant" src="imgs/plantyellow.png" class="absolute bottom-[250px] left-[10px] w-[20px]">
+                        <img class="absolute bottom-[90px] w-48 left-4" src="imgs/broccoliImg.png" alt="broccoliImg">
+                            <p class="text-yellow-500 absolute top-44 left-[70px] text-2xl"><b>Broccoli</b></p>
+                            <button
+                            id="btnbuy"
+                            class="bg-yellow-500 border-2 border-stone-900 text-white hover:bg-stone-900 hover:text-yellow-500 hover:border-yellow-500 shadow-lg hover:shadow-yellow-500/50 rounded p-2 w-32 relative left-12 top-[210px] transition duration-700 ease-in-out">
+                            Buy</button>
+                    </div>
+            </div>
+            <p class="text-yellow-500 absolute top-[2160px] left-[4px]">&copy; 2024 Farm Space. All rights reserved.</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
